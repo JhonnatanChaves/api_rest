@@ -6,11 +6,21 @@ using Supermarket.API.Domains.Models;
 
 namespace api_rest.Domains.Services
 {
+    
     public class CategoryService : ICategoryService
     {
-        public Task<IEnumerable<Category>> ListAsync()
+        private readonly ICategoryService _categoryRepository;
+
+        public CategoryService(ICategoryService categoryRepository) 
         {
-            return null;
+
+            this._categoryRepository = categoryRepository;
+
+        }
+
+        public async Task<IEnumerable<Category>> ListAsync()
+        {
+            return await _categoryRepository.ListAsync();
         }
     }
 }
