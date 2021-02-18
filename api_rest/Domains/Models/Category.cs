@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using api_rest.Domains.Models;
 
 namespace Supermarket.API.Domains.Models
 {
+    
     public class Category
     {
 
