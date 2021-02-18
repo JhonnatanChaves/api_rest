@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\api_rest",
+    "\\api_rest\\Domains",
+    "\\api_rest\\Persistence",
+    "\\api_rest\\Persistence\\Contexts",
+    "\\api_rest\\Persistence\\Repositories"
+  ],
+  "SelectedNode": "\\api_rest",
+  "PreviewInSolutionExplorer": false
+}

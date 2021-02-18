@@ -10,7 +10,7 @@ namespace api_rest.Domains.Models
     public class Product
     {
 
-		public int id { get; set; };
+		public int id { get; set; }
 
 		public string Name { get; set; }
 
