@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using api_rest.Domains.Repositories;
 using Supermarket.API.Domains.Models;
 
 namespace api_rest.Domains.Services
@@ -9,9 +10,9 @@ namespace api_rest.Domains.Services
     
     public class CategoryService : ICategoryService
     {
-        private readonly ICategoryService _categoryRepository;
+        private readonly ICategoryRepository _categoryRepository;
 
-        public CategoryService(ICategoryService categoryRepository) 
+        public CategoryService(ICategoryRepository categoryRepository) 
         {
 
             this._categoryRepository = categoryRepository;

@@ -8,7 +8,7 @@ using Supermarket.API.Domains.Models;
 
 namespace api_rest.Controllers
 {
-    [Route("api_rest/[controller]")]
+    [Route("/api/[controller]")]
     public class CategoryController : Controller
     {
         private readonly ICategoryService _categoryService;

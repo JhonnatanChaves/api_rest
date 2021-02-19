@@ -6,7 +6,7 @@ using Supermarket.API.Domains.Models;
 
 namespace api_rest.Domains.Repositories
 {
-    interface ICategoryRepository
+    public interface ICategoryRepository
     {
 
         Task<IEnumerable<Category>> ListAsync();
